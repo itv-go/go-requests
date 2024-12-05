@@ -1,0 +1,12 @@
+/.idea/
+/.vscode/
+/bin/
+/build/
+/logs/
+/vendor/
+.DS_Store
+.env
+configs/config.yaml
+/data/
+/uploads/
+main
