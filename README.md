@@ -27,6 +27,7 @@ type User struct {
 
 func main() {
     url := "https://api.example.com/users/1"
+	
     var user User
 
     result, err := requests.Get(url, &user)
