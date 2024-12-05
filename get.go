@@ -19,8 +19,6 @@ func Get[T any](url string, obj *T) (*T, error) {
 		}
 	}(resp.Body)
 
-	fmt.Println(resp)
-
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
