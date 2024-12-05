@@ -29,7 +29,7 @@ func main() {
     url := "https://api.example.com/users/1"
     var user User
 
-    result, err := Get(url, &user)
+    result, err := requests.Get(url, &user)
     if err != nil {
         fmt.Printf("Error fetching data: %s\n", err)
         return
